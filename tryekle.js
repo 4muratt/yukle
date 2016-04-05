@@ -1,4 +1,5 @@
-
+/****************************************************************************
+Copyright (c) 2011 The Wojo Group
 
 thewojogroup.com
 simplecartjs.com
@@ -25,7 +26,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 ****************************************************************************/
 
-var Custom="Custom",GoogleCheckout="GoogleCheckout",PayPal="PayPal",Email="Email",IndonesianRupiah="IDR",IDR="IDR",AustralianDollar="AUD",AUD="AUD",CanadianDollar="CAD",CAD="CAD",CzechKoruna="CZK",CZK="CZK",DanishKrone="DKK",DKK="DKK",Euro="EUR",EUR="EUR",HongKongDollar="HKD",HKD="HKD",HungarianForint="HUF",HUF="HUF",IsraeliNewSheqel="ILS",ILS="ILS",JapaneseYen="JPY",JPY="JPY",MexicanPeso="MXN",MXN="MXN",NorwegianKrone="NOK",NOK="NOK",NewZealandDollar="NZD",NZD="NZD",PolishZloty="PLN",PLN="PLN",PoundSterling="GBP",GBP="GBP",SingaporeDollar="SGD",SGD="SGD",SwedishKrona="SEK",SEK="SEK",SwissFranc="CHF",CHF="CHF",ThaiBaht="THB",THB="THB",USDollar="USD",USD="USD";
+var Custom="Custom",GoogleCheckout="GoogleCheckout",PayPal="PayPal",Email="Email",IndonesianRupiah="IDR",IDR="IDR",AustralianDollar="AUD",AUD="AUD",CanadianDollar="CAD",CAD="CAD",CzechKoruna="CZK",CZK="CZK",DanishKrone="DKK",DKK="DKK",Euro="EUR",EUR="EUR",HongKongDollar="HKD",HKD="HKD",TurkishLiras="TRY",TRY="TRY",IsraeliNewSheqel="ILS",ILS="ILS",JapaneseYen="JPY",JPY="JPY",MexicanPeso="MXN",MXN="MXN",NorwegianKrone="NOK",NOK="NOK",NewZealandDollar="NZD",NZD="NZD",PolishZloty="PLN",PLN="PLN",PoundSterling="GBP",GBP="GBP",SingaporeDollar="SGD",SGD="SGD",SwedishKrona="SEK",SEK="SEK",SwissFranc="CHF",CHF="CHF",ThaiBaht="THB",THB="THB",USDollar="USD",USD="USD";
 function Cart(){
 
 	var me = this;
@@ -757,8 +758,8 @@ function Cart(){
 				return "SEK&nbsp;";
 			case JPY:
 				return "&yen;";
-			case TRY:
-				return "&TRY;";
+			case EUR:
+				return "&euro;";
 			case GBP:
 				return "&pound;";
 			case CHF:
